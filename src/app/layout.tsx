@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://softfoxxy.ru"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://dev14dbq.github.io"
   ),
   title: "Softfoxxy — Portfolio",
   description:

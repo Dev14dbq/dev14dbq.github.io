@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -18,6 +18,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "meta" });
 
   const title = t("title");
@@ -59,6 +60,8 @@ export default async function LocaleLayout({ children, params }: Props) {
   if (!routing.locales.includes(locale as "ru" | "en")) {
     notFound();
   }
+
+  setRequestLocale(locale);
 
   const messages = await getMessages();
 
