@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Softfoxxy — Websites, Apps & Bots",
+    "description": "Full-Stack developer for hire — websites, mobile apps, and bots for Telegram, Discord & VK. End-to-end: design, code, deploy.",
+    "keywords": "full-stack developer, web development, hire developer, Telegram bot, mobile app, React, Next.js, TypeScript, freelance"
+  },
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Discuss project"
+  },
+  "hero": {
+    "badge": "Full-Stack · Mobile · Bots · Design",
+    "title": "Your technical partner",
+    "titleAccent": "from idea to launch",
+    "subtitle": "I build websites, mobile & desktop apps, and bots for Telegram, Discord, and VK — from the first call to a product running in production.",
+    "ctaPrimary": "Discuss project",
+    "ctaSecondary": "View work",
+    "stats": {
+      "platforms": "Platforms",
+      "platformsValue": "Web · iOS · Android · Desktop",
+      "stack": "Full cycle",
+      "stackValue": "Design · Code · Deploy",
+      "bots": "Integrations",
+      "botsValue": "Telegram · Discord · VK"
+    }
+  },
+  "services": {
+    "label": "Services",
+    "title": "What I do",
+    "subtitle": "I take on complex projects end-to-end — not just code, but interface, architecture, and launch.",
+    "items": {
+      "web": {
+        "title": "Web platforms",
+        "description": "CRM, dashboards, admin panels, SaaS and marketplaces with thoughtful architecture."
+      },
+      "mobile": {
+        "title": "Mobile & desktop",
+        "description": "Apps for iPhone, Android, Windows, macOS, and Linux — or any other device you need."
+      },
+      "bots": {
+        "title": "Bots & automation",
+        "description": "Telegram, Discord, and VK Max — orders, support, notifications integrated with your business."
+      },
+      "design": {
+        "title": "Interface design",
+        "description": "UI/UX and layouts in Illustrator and Photoshop — looks premium, works clearly."
+      },
+      "backend": {
+        "title": "Backend & data",
+        "description": "APIs, PostgreSQL, Redis, queues and reliable storage — a foundation built to scale."
+      },
+      "devops": {
+        "title": "Deploy & infrastructure",
+        "description": "Docker, Git, staging environments — your product stays stable after launch."
+      }
+    }
+  },
+  "process": {
+    "label": "Process",
+    "title": "My process",
+    "subtitle": "Transparent and step-by-step — you always know where the project stands.",
+    "steps": {
+      "discover": {
+        "title": "Call & scope",
+        "description": "I dig into the business goal, audience, and constraints — and define what success looks like."
+      },
+      "plan": {
+        "title": "Plan & estimate",
+        "description": "I propose architecture, milestones, and timeline. Pricing is discussed on a call — no surprises."
+      },
+      "build": {
+        "title": "Development",
+        "description": "I share staging builds along the way. You see progress instead of waiting in silence."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Deploy, testing, documentation, and handoff. Everything runs in production."
+      },
+      "support": {
+        "title": "Support",
+        "description": "I don't disappear after delivery — iterations, scaling, and maintenance by agreement."
+      }
+    }
+  },
+  "work": {
+    "label": "Work",
+    "title": "Projects",
+    "subtitle": "Real cases and demo projects that show my level and approach.",
+    "demo": "Demo project",
+    "thissite": "This site",
+    "viewCase": "Learn more",
+    "items": {
+      "portfolio": {
+        "title": "Softfoxxy",
+        "description": "Portfolio with animations, bilingual UI, thoughtful typography, and responsive layout. Next.js, TypeScript, Tailwind, Framer Motion.",
+        "tags": ["Next.js", "TypeScript", "Tailwind", "Framer Motion"]
+      },
+      "crm": {
+        "title": "CRM for service business",
+        "description": "Dashboard with clients, orders, analytics, and roles. Auth, filters, real-time notifications.",
+        "tags": ["React", "Node.js", "PostgreSQL", "Redis"]
+      },
+      "bot": {
+        "title": "Telegram booking bot",
+        "description": "Client booking bot with admin panel, scheduling, and push notifications for the business owner.",
+        "tags": ["Telegram API", "Python", "PostgreSQL"]
+      },
+      "saas": {
+        "title": "SaaS Dashboard",
+        "description": "Multi-tenant platform with subscriptions, analytics, and API. Architecture built to scale.",
+        "tags": ["TypeScript", "Docker", "PostgreSQL", "Redis"]
+      }
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "Gleb · Softfoxxy",
+    "firstName": "Gleb",
+    "handle": "SOFTFOXXY",
+    "role": "Full Stack Developer",
+    "age": "15 y.o.",
+    "city": "Kazan, Russia",
+    "tagline": "I take on projects end-to-end — from design to deployment. Direct work, no middlemen.",
+    "facts": ["Web · Mobile · Desktop", "Telegram · Discord · VK", "Design · Code · Deploy"],
+    "skillsLabel": "Skills",
+    "skills": [
+      { "name": "TypeScript / JavaScript", "desc": "React, Next.js, Node.js — full stack" },
+      { "name": "Python", "desc": "Backend services, automation, bots" },
+      { "name": "Bots", "desc": "Telegram, Discord, VK — from scratch to production" },
+      { "name": "Mobile & Desktop", "desc": "iOS, Android, Windows, macOS, Linux" },
+      { "name": "Databases", "desc": "PostgreSQL, Redis, schema design" },
+      { "name": "Design", "desc": "UI/UX, Illustrator, Photoshop" }
+    ],
+    "doLabel": "What I do",
+    "do": [
+      { "title": "Web Platforms", "desc": "CRM, SaaS, admin panels, landing pages" },
+      { "title": "Bots", "desc": "Telegram, Discord, VK — orders, support, automation" },
+      { "title": "Mobile & Desktop", "desc": "iOS, Android, Windows, macOS, Linux" },
+      { "title": "Interface Design", "desc": "UI/UX, layouts in Illustrator & Photoshop" }
+    ],
+    "available": "Available for projects"
+  },
+  "stack": {
+    "label": "Stack",
+    "title": "Technologies",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Data",
+      "integrations": "Integrations",
+      "design": "Design",
+      "tools": "Tools"
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's discuss your project",
+    "subtitle": "Tell me about the task — I'll reply with a plan. Pricing is discussed on a call.",
+    "telegram": "Telegram",
+    "telegramHint": "@DDev14",
+    "discord": "Discord",
+    "discordHint": "softfoxxy",
+    "max": "Max",
+    "maxHint": "VK Max",
+    "form": {
+      "name": "Your name",
+      "phone": "Phone number",
+      "social": "Social media / username",
+      "submit": "Send",
+      "placeholderName": "How should I address you",
+      "placeholderPhone": "+1 555 000 00 00",
+      "placeholderSocial": "@username or how to find you"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "i++"
+  }
+}

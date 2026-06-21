@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Softfoxxy — Сайты, приложения и боты на заказ",
+    "description": "Full-Stack разработчик на заказ — сайты, мобильные приложения, боты для Telegram, Discord и VK. Берусь за проект целиком: дизайн, код, деплой.",
+    "keywords": "full-stack разработчик, веб-разработка на заказ, создание сайтов, Telegram бот, мобильное приложение, React, Next.js, TypeScript, фриланс"
+  },
+  "nav": {
+    "services": "Услуги",
+    "process": "Процесс",
+    "work": "Работы",
+    "about": "Обоㅤмне",
+    "contact": "Контакт",
+    "cta": "Обсудить проект"
+  },
+  "hero": {
+    "badge": "Full-Stack · Mobile · Bots · Design",
+    "title": "Ваш технический партнёр",
+    "titleAccent": "от идеи до запуска",
+    "subtitle": "Создаю сайты, мобильные и десктопные приложения, ботов для Telegram, Discord и VK — от первого созвона до работающего продукта в production.",
+    "ctaPrimary": "Обсудить проект",
+    "ctaSecondary": "Посмотреть работы",
+    "stats": {
+      "platforms": "Платформы",
+      "platformsValue": "Web · iOS · Android · Desktop",
+      "stack": "Полный цикл",
+      "stackValue": "Дизайн · Код · Деплой",
+      "bots": "Интеграции",
+      "botsValue": "Telegram · Discord · VK"
+    }
+  },
+  "services": {
+    "label": "Услуги",
+    "title": "Что умею",
+    "subtitle": "Беру сложные проекты целиком — не только код, но и интерфейс, архитектуру и запуск.",
+    "items": {
+      "web": {
+        "title": "Веб-платформы",
+        "description": "CRM, личные кабинеты, админ-панели, SaaS и маркетплейсы с продуманной архитектурой."
+      },
+      "mobile": {
+        "title": "Мобильные и десктоп",
+        "description": "Приложения для iPhone, Android, Windows, macOS и Linux — или под любое другое устройство, если нужно."
+      },
+      "bots": {
+        "title": "Боты и автоматизация",
+        "description": "Telegram, Discord и VK Max — заказы, поддержка, уведомления и интеграция с вашим бизнесом."
+      },
+      "design": {
+        "title": "Дизайн интерфейсов",
+        "description": "UI/UX и макеты в Illustrator и Photoshop — дорого выглядит, понятно работает."
+      },
+      "backend": {
+        "title": "Backend и данные",
+        "description": "API, PostgreSQL, Redis, очереди и надёжное хранение — фундамент для роста продукта."
+      },
+      "devops": {
+        "title": "Деплой и инфраструктура",
+        "description": "Docker, Git, staging-среды — продукт стабильно работает после запуска."
+      }
+    }
+  },
+  "process": {
+    "label": "Процесс",
+    "title": "Как мы работаем",
+    "subtitle": "Прозрачно и по шагам — вы всегда понимаете, на каком этапе проект.",
+    "steps": {
+      "discover": {
+        "title": "Созвон и задача",
+        "description": "Разбираем бизнес-цель, аудиторию и ограничения. Фиксируем, что должно получиться."
+      },
+      "plan": {
+        "title": "План и смета",
+        "description": "Предлагаю архитектуру, этапы и сроки. Стоимость — на созвоне, без сюрпризов."
+      },
+      "build": {
+        "title": "Разработка",
+        "description": "Показываю промежуточные версии на staging. Вы видите прогресс, а не ждёте в тишине."
+      },
+      "launch": {
+        "title": "Запуск",
+        "description": "Деплой, тесты, документация и передача проекта. Всё работает в production."
+      },
+      "support": {
+        "title": "Поддержка",
+        "description": "Не бросаю после сдачи — доработки, масштабирование и сопровождение по договорённости."
+      }
+    }
+  },
+  "work": {
+    "label": "Работы",
+    "title": "Проекты",
+    "subtitle": "Реальные кейсы и пет-проекты, показывающие подход и уровень.",
+    "demo": "Демо-проект",
+    "thissite": "Этот сайт",
+    "viewCase": "Подробнее",
+    "items": {
+      "portfolio": {
+        "title": "Softfoxxy",
+        "description": "Портфолио с анимациями, двуязычным интерфейсом, продуманной типографикой и адаптивной вёрсткой. Next.js, TypeScript, Tailwind, Framer Motion.",
+        "tags": ["Next.js", "TypeScript", "Tailwind", "Framer Motion"]
+      },
+      "crm": {
+        "title": "CRM для сервисного бизнеса",
+        "description": "Dashboard с клиентами, заказами, аналитикой и ролями. Auth, фильтры, real-time уведомления.",
+        "tags": ["React", "Node.js", "PostgreSQL", "Redis"]
+      },
+      "bot": {
+        "title": "Telegram-бот для записи",
+        "description": "Бот для записи клиентов с админ-панелью, расписанием и push-уведомлениями владельцу бизнеса.",
+        "tags": ["Telegram API", "Python", "PostgreSQL"]
+      },
+      "saas": {
+        "title": "SaaS Dashboard",
+        "description": "Мульти-tenant платформа с подписками, аналитикой и API. Архитектура под масштабирование.",
+        "tags": ["TypeScript", "Docker", "PostgreSQL", "Redis"]
+      }
+    }
+  },
+  "about": {
+    "label": "Обо_мне",
+    "title": "Глеб · Softfoxxy",
+    "firstName": "Глеб",
+    "handle": "SOFTFOXXY",
+    "role": "Full Stack Developer",
+    "age": "15 лет",
+    "city": "Казань, Россия",
+    "tagline": "Беру проекты целиком — от дизайна до деплоя. Работаю напрямую, без посредников.",
+    "facts": ["Web · Mobile · Desktop", "Telegram · Discord · VK", "Дизайн · Код · Деплой"],
+    "skillsLabel": "Навыки",
+    "skills": [
+      { "name": "TypeScript / JavaScript", "desc": "React, Next.js, Node.js — полный стек" },
+      { "name": "Python", "desc": "Backend-сервисы, автоматизация, боты" },
+      { "name": "Боты", "desc": "Telegram, Discord, VK — с нуля до production" },
+      { "name": "Mobile & Desktop", "desc": "iOS, Android, Windows, macOS, Linux" },
+      { "name": "Базы данных", "desc": "PostgreSQL, Redis, проектирование схем" },
+      { "name": "Дизайн", "desc": "UI/UX, Illustrator, Photoshop" }
+    ],
+    "doLabel": "Чем я занимаюсь",
+    "do": [
+      { "title": "Веб-платформы", "desc": "CRM, SaaS, админки, лендинги, порталы" },
+      { "title": "Боты", "desc": "Telegram, Discord, VK — заказы, поддержка, автоматизация" },
+      { "title": "Mobile & Desktop", "desc": "iOS, Android, Windows, macOS, Linux" },
+      { "title": "Дизайн интерфейсов", "desc": "UI/UX, макеты в Illustrator и Photoshop" }
+    ],
+    "available": "Доступен для проектов"
+  },
+  "stack": {
+    "label": "Стек",
+    "title": "Технологии",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Данные",
+      "integrations": "Интеграции",
+      "design": "Дизайн",
+      "tools": "Инструменты"
+    }
+  },
+  "contact": {
+    "label": "Контакт",
+    "title": "Обсудим ваш проект",
+    "subtitle": "Расскажите о задаче — отвечу и предложу план. Стоимость обсуждаем на созвоне.",
+    "telegram": "Telegram",
+    "telegramHint": "@DDev14",
+    "discord": "Discord",
+    "discordHint": "softfoxxy",
+    "max": "Max",
+    "maxHint": "VK Max",
+    "form": {
+      "name": "Ваше имя",
+      "phone": "Номер телефона",
+      "social": "Соцсети / юзернейм",
+      "submit": "Отправить",
+      "placeholderName": "Как вас зовут",
+      "placeholderPhone": "+7 999 000 00 00",
+      "placeholderSocial": "@username или как вас найти"
+    }
+  },
+  "footer": {
+    "rights": "Все права защищены.",
+    "built": "i++"
+  }
+}
