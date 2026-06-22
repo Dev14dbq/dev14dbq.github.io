@@ -79,7 +79,7 @@ export default function Hero() {
                   {t("ctaPrimary")}
                 </a>
                 <a
-                  href="#work"
+                  href="#about"
                   className="rounded-full border border-card-border bg-transparent text-foreground px-6 py-3 text-sm font-semibold hover:border-accent-40 transition-colors"
                 >
                   {t("ctaSecondary")}
