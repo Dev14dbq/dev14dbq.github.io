@@ -2,6 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/routing";
+import { saveLocalePreference } from "@/lib/locale";
 
 export default function LanguageToggle() {
   const locale = useLocale();
@@ -10,6 +11,7 @@ export default function LanguageToggle() {
 
   const toggle = () => {
     const next = locale === "ru" ? "en" : "ru";
+    saveLocalePreference(next);
     router.replace(pathname, { locale: next });
   };
 
