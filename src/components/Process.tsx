@@ -14,7 +14,7 @@ export default function Process() {
     "calc(max(calc(50% - 36rem), var(--content-px)) - var(--rail-content-offset) - var(--rail-gap) - var(--rail-label-outset))";
 
   return (
-    <section id="process" className="section-padding bg-card/30">
+    <section id="process" className="section-padding bg-card-30">
       <div className="container-wide">
         {/* Heading */}
         <div className="relative">
@@ -61,7 +61,7 @@ export default function Process() {
               <div className="grid grid-cols-[3.5rem_1fr] md:grid-cols-[3.5rem_1px_16rem_1px_1fr] items-stretch">
                 {/* Number */}
                 <div className="flex items-center justify-center py-7 md:py-8 pr-4">
-                  <span className="font-mono text-2xl font-bold text-accent/50 leading-none">
+                  <span className="font-mono text-2xl font-bold text-accent-50 leading-none">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                 </div>

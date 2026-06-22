@@ -9,6 +9,16 @@
   --card: rgba(237, 170, 196, 0.04);
   --card-border: rgba(237, 170, 196, 0.10);
   --glow: rgba(237, 170, 196, 0.14);
+
+  /* Explicit sRGB alpha tokens — avoids Tailwind's oklab color-mix hue shift on desktop */
+  --accent-30: rgba(237, 170, 196, 0.30);
+  --accent-40: rgba(237, 170, 196, 0.40);
+  --accent-50: rgba(237, 170, 196, 0.50);
+  --accent-60: rgba(237, 170, 196, 0.60);
+  --muted-40: rgba(122, 104, 112, 0.40);
+  --muted-60: rgba(122, 104, 112, 0.60);
+  --foreground-80: rgba(240, 234, 237, 0.80);
+  --card-30: rgba(237, 170, 196, 0.012);
 }
 
 @theme inline {
@@ -17,7 +27,15 @@
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-accent-dim: var(--accent-dim);
+  --color-accent-30: var(--accent-30);
+  --color-accent-40: var(--accent-40);
+  --color-accent-50: var(--accent-50);
+  --color-accent-60: var(--accent-60);
+  --color-muted-40: var(--muted-40);
+  --color-muted-60: var(--muted-60);
+  --color-foreground-80: var(--foreground-80);
   --color-card: var(--card);
+  --color-card-30: var(--card-30);
   --color-card-border: var(--card-border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -26,6 +44,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  color-scheme: dark;
   --content-px: 1.5rem;   /* px-6 */
   --rail-content-offset: 10px;
   --rail-gap: 40px;

@@ -80,7 +80,7 @@ export default function Hero() {
                 </a>
                 <a
                   href="#work"
-                  className="rounded-full border border-card-border bg-transparent text-foreground px-6 py-3 text-sm font-semibold hover:border-accent/40 transition-colors"
+                  className="rounded-full border border-card-border bg-transparent text-foreground px-6 py-3 text-sm font-semibold hover:border-accent-40 transition-colors"
                 >
                   {t("ctaSecondary")}
                 </a>

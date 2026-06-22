@@ -64,7 +64,7 @@ export default function Work() {
                     >
                       <div className="flex flex-col gap-3">
                         {badge && (
-                          <span className="self-start font-mono text-xs border border-accent/30 text-accent rounded-md px-2.5 py-1">
+                          <span className="self-start font-mono text-xs border border-accent-30 text-accent rounded-md px-2.5 py-1">
                             {t(badge)}
                           </span>
                         )}

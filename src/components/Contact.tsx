@@ -164,10 +164,10 @@ export default function Contact() {
   };
 
   const inputCls = (hasError?: boolean) =>
-    `w-full bg-transparent border rounded-xl px-4 py-3 text-sm text-foreground placeholder:text-muted/40 focus:outline-none transition-colors ${
+    `w-full bg-transparent border rounded-xl px-4 py-3 text-sm text-foreground placeholder:text-muted-40 focus:outline-none transition-colors ${
       hasError
         ? "border-red-400/50 focus:border-red-400/70"
-        : "border-card-border focus:border-accent/50"
+        : "border-card-border focus:border-accent-50"
     }`;
 
   return (
@@ -209,7 +209,7 @@ export default function Contact() {
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="card-base flex items-center justify-between group hover:border-accent/40 hover:shadow-[0_0_24px_rgba(237,170,196,0.10)] transition-all"
+                      className="card-base flex items-center justify-between group hover:border-accent-40 hover:shadow-[0_0_24px_rgba(237,170,196,0.10)] transition-all"
                       style={{ backgroundColor: "var(--background)" }}
                     >
                       <div className="flex items-center gap-3.5">
@@ -233,7 +233,7 @@ export default function Contact() {
                       </div>
                       <FiArrowUpRight
                         size={16}
-                        className="text-muted/60 group-hover:text-accent group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0"
+                        className="text-muted-60 group-hover:text-accent group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0"
                       />
                     </a>
                   ))}

@@ -23,7 +23,7 @@ export default function About() {
   const doItems = t.raw("do") as DoItem[];
 
   return (
-    <section id="about" className="section-padding bg-card/30">
+    <section id="about" className="section-padding bg-card-30">
       <div className="container-wide">
         <SectionHeading label={t("label")} title={t("title")} />
         <div aria-hidden className="h-6 md:h-8" />
@@ -68,15 +68,15 @@ export default function About() {
                 {/* Meta */}
                 <div className="w-full flex flex-col gap-2.5 border-t border-card-border pt-4">
                   <div className="flex items-center gap-2.5 text-muted text-sm">
-                    <FiUser size={13} className="text-accent/60 shrink-0" />
+                    <FiUser size={13} className="text-accent-60 shrink-0" />
                     <span className="font-mono">{t("age")}</span>
                   </div>
                   <div className="flex items-center gap-2.5 text-muted text-sm">
-                    <FiMapPin size={13} className="text-accent/60 shrink-0" />
+                    <FiMapPin size={13} className="text-accent-60 shrink-0" />
                     <span className="font-mono">{t("city")}</span>
                   </div>
                   <div className="flex items-center gap-2.5 text-sm pt-0.5">
-                    <span className="font-mono text-foreground/80">{t("role")}</span>
+                    <span className="font-mono text-foreground-80">{t("role")}</span>
                   </div>
                 </div>
               </motion.div>
@@ -90,7 +90,7 @@ export default function About() {
                   className="card-base flex flex-col overflow-hidden"
                   style={{ backgroundColor: "var(--background)" }}
                 >
-                  <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-accent/60 px-6 pt-5 pb-3">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-accent-60 px-6 pt-5 pb-3">
                     {t("skillsLabel")}
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -117,7 +117,7 @@ export default function About() {
                   className="card-base flex flex-col overflow-hidden"
                   style={{ backgroundColor: "var(--background)" }}
                 >
-                  <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-accent/60 px-6 pt-5 pb-3">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-accent-60 px-6 pt-5 pb-3">
                     {t("doLabel")}
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2">

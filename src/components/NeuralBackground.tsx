@@ -4,6 +4,8 @@ import { useRef, useMemo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
+THREE.ColorManagement.enabled = true;
+
 const NODE_COUNT = 60;
 const CONNECTION_DIST = 2.8;
 
@@ -69,7 +71,11 @@ export default function NeuralBackground() {
     <Canvas
       camera={{ position: [0, 0, 8], fov: 60 }}
       style={{ position: "absolute", inset: 0 }}
-      gl={{ antialias: false, alpha: true }}
+      gl={{
+        antialias: false,
+        alpha: true,
+        outputColorSpace: THREE.SRGBColorSpace,
+      }}
     >
       <NeuralScene />
     </Canvas>
