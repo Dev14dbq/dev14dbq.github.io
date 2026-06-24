@@ -8,8 +8,6 @@ import { SiTelegram, SiDiscord } from "@icons-pack/react-simple-icons";
 import { FiArrowUpRight } from "react-icons/fi";
 import HRule from "./HRule";
 
-const BOT_TOKEN = "8826141605:AAGDWBmH-6pZ7iZql130n2PW_3WTOSS9XTc";
-const CHAT_ID = "7611517250";
 
 const messengers = [
   {
@@ -133,23 +131,12 @@ export default function Contact() {
     setSubmitting(true);
     setSubmitStatus(null);
 
-    const lines = [
-      "<b>Новая заявка с сайта</b>",
-      "",
-      name   ? `👤 <b>Имя:</b> ${name}`    : null,
-      phone  ? `📞 <b>Телефон:</b> ${phone}` : null,
-      social ? `💬 <b>Соцсети:</b> ${social}` : null,
-    ].filter((l) => l !== null).join("\n");
-
     try {
-      const res = await fetch(
-        `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ chat_id: CHAT_ID, text: lines, parse_mode: "HTML" }),
-        }
-      );
+      const res = await fetch("https://spectrmod.com/spectrmod/porfolio/запрос", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, phone, social }),
+      });
       if (!res.ok) throw new Error("Non-2xx response");
       setSubmitStatus("success");
       setName("");
