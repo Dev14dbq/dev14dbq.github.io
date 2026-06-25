@@ -58,7 +58,7 @@ export default function MarqueeTech() {
   const doubled = [...items, ...items];
 
   return (
-    <section className="py-10 border-y border-card-border overflow-hidden relative bg-card">
+    <section className="py-5 border-y border-card-border overflow-hidden relative bg-card flex items-center">
       <div className="pointer-events-none absolute inset-y-0 left-0 w-24 z-10"
         style={{ background: "linear-gradient(to right, var(--background), transparent)" }} />
       <div className="pointer-events-none absolute inset-y-0 right-0 w-24 z-10"
